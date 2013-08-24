@@ -1,0 +1,83 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|pack": "justify",
+        "designer|userClassName": "MyContainer",
+        "designer|initialView": true,
+        "layout": "hbox"
+    },
+    "designerId": "83cfa17e-1b01-4d7e-bfd7-d89f36ebeb1b",
+    "cn": [
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "text": "Button 1"
+            },
+            "designerId": "2db88dd1-916b-4a38-853b-b2052d99048c",
+            "cn": [
+                {
+                    "type": "fixedfunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "handler",
+                        "designer|params": [
+                            "button",
+                            "event"
+                        ],
+                        "implHandler": [
+                            "console.log('pressed 1');"
+                        ]
+                    },
+                    "designerId": "6354471f-d057-49f8-a40f-dac586fb2831"
+                }
+            ]
+        },
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "text": "Button 2"
+            },
+            "designerId": "de23d69c-46c4-4253-b7a9-749c09c60f2c",
+            "cn": [
+                {
+                    "type": "fixedfunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "handler",
+                        "designer|params": [
+                            "button",
+                            "event"
+                        ],
+                        "implHandler": [
+                            "console.log('pressed two');"
+                        ]
+                    },
+                    "designerId": "b4a7a14f-adff-4d82-b9d3-cd879dfe56c9"
+                }
+            ]
+        }
+    ]
+}
